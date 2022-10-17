@@ -4,10 +4,12 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +26,12 @@
 }
 
 .characterWrapper {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  width: 45%; /* Yes, slight overflow here; usually the graphic doesn't take up this space. */
 }
 
 .controlColumn {
+  max-width: 50%;
 }
